@@ -99,21 +99,5 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
 
-  {
-    id: 'other',
-    title: 'Other',
-    type: 'group',
-    icon: 'icon-navigation',
-    children: [
-      {
-        id: 'sample-page',
-        title: 'Sample Page',
-        type: 'item',
-        url: '/sample-page',
-        classes: 'nav-item',
-        icon: 'chrome'
-      }
-      
-    ]
-  }
+ 
 ];
