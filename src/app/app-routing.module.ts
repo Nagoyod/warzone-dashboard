@@ -18,19 +18,19 @@ const routes: Routes = [
       },
       {
         path: 'dashboard/default',
-        loadComponent: () => import('./demo/dashboard/default/default.component').then((c) => c.DefaultComponent)
+        loadComponent: () => import('./dashboard/default/default.component').then((c) => c.DefaultComponent)
       },
       {
         path: 'typography',
-        loadComponent: () => import('./demo/component/basic-component/typography/typography.component').then((c) => c.TypographyComponent)
+        loadComponent: () => import('./component/basic-component/typography/typography.component').then((c) => c.TypographyComponent)
       },
       {
         path: 'color',
-        loadComponent: () => import('./demo/component/basic-component/color/color.component').then((c) => c.ColorComponent)
+        loadComponent: () => import('.component/basic-component/color/color.component').then((c) => c.ColorComponent)
       },
       {
         path: 'sample-page',
-        loadComponent: () => import('./demo/others/sample-page/sample-page.component').then((c) => c.SamplePageComponent)
+        loadComponent: () => import('./others/sample-page/sample-page.component').then((c) => c.SamplePageComponent)
       }
     ]
   },
@@ -40,12 +40,12 @@ const routes: Routes = [
     children: [
       {
         path: 'login',
-        loadComponent: () => import('./demo/pages/authentication/auth-login/auth-login.component').then((c) => c.AuthLoginComponent)
+        loadComponent: () => import('./pages/authentication/auth-login/auth-login.component').then((c) => c.AuthLoginComponent)
       },
       {
         path: 'register',
         loadComponent: () =>
-          import('./demo/pages/authentication/auth-register/auth-register.component').then((c) => c.AuthRegisterComponent)
+          import('./pages/authentication/auth-register/auth-register.component').then((c) => c.AuthRegisterComponent)
       }
     ]
   }
