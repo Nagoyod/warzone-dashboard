@@ -77,10 +77,7 @@ export const NavigationItems: NavigationItem[] = [
     title: 'Other',
     type: 'group',
     icon: 'icon-navigation',
-    children: [
-      {
-       
-      },
+   
      
     ]
   }
