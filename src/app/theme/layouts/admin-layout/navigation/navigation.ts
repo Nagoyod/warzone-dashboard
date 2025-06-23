@@ -113,16 +113,7 @@ export const NavigationItems: NavigationItem[] = [
         classes: 'nav-item',
         icon: 'chrome'
       },
-      {
-        id: 'document',
-        title: 'Document',
-        type: 'item',
-        classes: 'nav-item',
-        url: 'https://codedthemes.gitbook.io/mantis-angular/',
-        icon: 'question',
-        target: true,
-        external: true
-      }
+     
     ]
   }
 ];
