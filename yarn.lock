@@ -1283,15 +1283,7 @@
     ansi-escapes "^4.3.2"
     yoctocolors-cjs "^2.1.2"
 
-"@inquirer/confirm@^5.1.9":
-  version "5.1.10"
-  resolved "https://registry.npmjs.org/@inquirer/confirm/-/confirm-5.1.10.tgz"
-  integrity sha512-FxbQ9giWxUWKUk2O5XZ6PduVnH2CZ/fmMKMBkH71MHJvWr7WL5AHKevhzF1L5uYWB2P548o1RzVxrNd3dpmk6g==
-  dependencies:
-    "@inquirer/core" "^10.1.11"
-    "@inquirer/type" "^3.0.6"
-
-"@inquirer/confirm@5.1.9":
+"@inquirer/confirm@^5.1.9", "@inquirer/confirm@5.1.9":
   version "5.1.9"
   resolved "https://registry.npmjs.org/@inquirer/confirm/-/confirm-5.1.9.tgz"
   integrity sha512-NgQCnHqFTjF7Ys2fsqK2WtnA8X1kHyInyG+nMIuHowVTIgIuS10T4AznI/PvbqSpJqjCUqNBlKGh1v3bwLFL4w==
@@ -6065,15 +6057,7 @@ vite@6.3.2:
   optionalDependencies:
     fsevents "~2.3.3"
 
-watchpack@^2.4.1:
-  version "2.4.4"
-  resolved "https://registry.npmjs.org/watchpack/-/watchpack-2.4.4.tgz"
-  integrity sha512-c5EGNOiyxxV5qmTtAB7rbiXxi1ooX1pQKMLX/MIabJjRA0SJBQOjKF+KSVfHkr9U1cADPon0mRiVe/riyaiDUA==
-  dependencies:
-    glob-to-regexp "^0.4.1"
-    graceful-fs "^4.1.2"
-
-watchpack@2.4.2:
+watchpack@^2.4.1, watchpack@2.4.2:
   version "2.4.2"
   resolved "https://registry.npmjs.org/watchpack/-/watchpack-2.4.2.tgz"
   integrity sha512-TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==
