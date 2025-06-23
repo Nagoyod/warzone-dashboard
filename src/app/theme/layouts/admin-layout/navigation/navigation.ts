@@ -72,13 +72,6 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
 
-  {
-    id: 'other',
-    title: 'Other',
-    type: 'group',
-    icon: 'icon-navigation',
-   
-     
-    ]
+  
   }
 ];
